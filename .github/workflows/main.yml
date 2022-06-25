@@ -52,5 +52,5 @@ jobs:
       uses: adrey/slack-file-upload-action@master
       with:
         token: ${{ secrets.SLACK_TOKEN }}
-        path: build/app/outputs/flutter-apk/app-debug.apk
+        path: build/app/outputs/flutter-apk/app-release.apk
         channel: debug
